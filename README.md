@@ -41,6 +41,8 @@
 	chmod +x *
 	```
 
+<br />
+
 
 ### **main.nf**
 
@@ -88,9 +90,11 @@ workflow {
 
 ```
 
+<br />
 
 
-## **nextflow.config**
+
+### **nextflow.config**
 
 
 ```
@@ -144,10 +148,10 @@ params.slurm_account = 'XXXXXX'
 }
 ```
 
+<br />
 
 
-
-## **slurm_script.sh**
+### **slurm_script.sh**
 
 
 ```
