@@ -245,7 +245,7 @@ Figure 2. MrBayes process is completed
 - “lset nst=6 rates=invgamma” sets a nucleotide substitution model called “GTR + I + G” 
 
 
-	*The usage of maximum likelihood method in phylogenetic analysis requires a nucleotide substitution model such as “GTR + I + G”. “GTR + I + G” is a widely used General Time Reversible (GTR) nucleotide substitution model with gamma-distributed rate variation across sites (G) and a proportion of invariable sites (I).  The invariable sites account for the static, unchanging sites in a dataset.*
+*The usage of maximum likelihood method in phylogenetic analysis requires a nucleotide substitution model such as “GTR + I + G”. “GTR + I + G” is a widely used General Time Reversible (GTR) nucleotide substitution model with gamma-distributed rate variation across sites (G) and a proportion of invariable sites (I).  The invariable sites account for the static, unchanging sites in a dataset.*
 	
 
 
@@ -255,11 +255,11 @@ Figure 2. MrBayes process is completed
 
 
 - “printfreq” controls the frequency with which brief info about the analysis is printed to screen. The default value is 1,000.
-- 
+
 
 
 - “samplefreq” determines how often the chain is sampled; the default is every 500 generations
-- 
+
 
 
 - diagnostics calculated every “diagnfreq” generation
@@ -282,7 +282,7 @@ Figure 2. MrBayes process is completed
 
 
 
-	*‘4’ represents 25%*
+*‘4’ represents 25%*
 	
 
 
