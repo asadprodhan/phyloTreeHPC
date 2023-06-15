@@ -20,19 +20,19 @@
 - Transfer the following files to your HPC cluster and keep them in the same directory
 
 
-- Alignment file(s) (nexus format, e.g., cox1_alignment.nex). Note that your alignment files must end up with '_alignment.nex'. Make sure that the IDs in the alignment file do not have quotation marks (‘NC095897.2’). MrBayes program cannot read the names that are within quotation marks 
+	- Alignment file(s) (nexus format, e.g., cox1_alignment.nex). Note that your alignment files must end up with '_alignment.nex'. Make sure that the IDs in the alignment file do not have quotation marks (‘NC095897.2’). MrBayes program cannot read the names that are within quotation marks 
 
 
 
-- The MrBayes parameter file, zzz_mrbayes_parameters.nex. It contains the analysis run parameters (parameters in the “zzz_mrbayes_parameters.nex” file are explained below). You can modify them but must keep the file name same, i.e., “zzz_mrbayes_parameters_ref.nex”
+	- The MrBayes parameter file, zzz_mrbayes_parameters.nex. It contains the analysis run parameters (parameters in the “zzz_mrbayes_parameters.nex” file are explained below). You can modify them but must keep the file name same, i.e., “zzz_mrbayes_parameters_ref.nex”
 
 
 
-- The following three scripts (main.nf, nextflow.config, slurm_script.sh). ‘nextflow.config’ and the ‘slurm_script.sh’ can be modified to request more or less computing resources such as cpus, RAM, nodes, time etc
+	- The following three scripts (main.nf, nextflow.config, slurm_script.sh). ‘nextflow.config’ and the ‘slurm_script.sh’ can be modified to request more or less computing resources such as cpus, RAM, nodes, time etc
 
 
 
-- Make the scripts executable by running the following command
+	- Make the scripts executable by running the following command
 
 
 
