@@ -251,7 +251,7 @@ Figure 2. MrBayes process is completed
 
 
 - “ngen” is the number of generations for which the analysis will be run
-- 
+
 
 
 - “printfreq” controls the frequency with which brief info about the analysis is printed to screen. The default value is 1,000.
