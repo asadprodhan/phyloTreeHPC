@@ -187,10 +187,9 @@ srun ./slurm_script.sh
 ```
 
 <br />
-<br />
 
 
-## **MrBayes process is running**
+### **MrBayes process is running**
 
 
 <br />
@@ -209,7 +208,7 @@ Figure 1. MrBayes process is running
 
 
 
-## **MrBayes process is completed**
+### **MrBayes process is completed**
 
 
 <br />
@@ -219,7 +218,7 @@ Figure 1. MrBayes process is running
   >
 </p>
 <p align = "center">
-Figure 2.MrBayes process is completed
+Figure 2. MrBayes process is completed
 </p>
 
 
