@@ -14,13 +14,13 @@
 ## **Step 1: Prepare the input files**
 
 
- - Log in into your HPC cluster
+- Log in into your HPC cluster
  
- 
- - Transfer the following files to your HPC cluster and keep them in the same directory
+
+- Transfer the following files to your HPC cluster and keep them in the same directory
 
 
- - Alignment file/s (nexus format, e.g., cox1_alignment.nex). Note that your alignment file/s must end up with ‘_alignment.nex’. Make sure that the IDs in the alignment file do not have quotation marks (‘NC095897.2’). MrBayes program cannot read the names that are within quotation marks 
+- Alignment file(s) (nexus format, e.g., cox1_alignment.nex). Note that your alignment files must end up with _alignment.nex. Make sure that the IDs in the alignment file do not have quotation marks (‘NC095897.2’). MrBayes program cannot read the names that are within quotation marks 
 
 
  - The MrBayes parameter file, zzz_mrbayes_parameters.nex. It contains the analysis run parameters (parameters in the “zzz_mrbayes_parameters.nex” file are explained below). You can modify them but must keep the file name same, i.e., “zzz_mrbayes_parameters_ref.nex”
