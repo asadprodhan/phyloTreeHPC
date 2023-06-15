@@ -173,12 +173,21 @@ nextflow run main.nf -profile setonix -name nxf-${SLURM_JOB_ID} -resume --with-r
 ```
 
 
+<br />
+<br />
+
+
+
 ## **Step 2: Run the analysis as follows**
+
 
 
 ```
 srun ./slurm_script.sh
 ```
+
+<br />
+<br />
 
 
 ## **MrBayes process is running**
@@ -193,6 +202,10 @@ srun ./slurm_script.sh
 <p align = "center">
 Figure 1. MrBayes process is running
 </p>
+
+
+<br />
+<br />
 
 
 
